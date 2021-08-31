@@ -1,0 +1,84 @@
+//调用开始合成，让他播放结束
+2021-08-31 16:15:55.224 11684-16718/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始合成，s=0
+2021-08-31 16:15:55.226 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始播放，s=0
+2021-08-31 16:15:55.902 11684-16718/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:15:55.906 11684-16718/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:15:55.985 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=0
+2021-08-31 16:15:56.057 11684-16718/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:15:56.061 11684-16718/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:15:56.061 11684-16718/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---合成结束，s=0
+2021-08-31 16:15:56.105 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=1
+2021-08-31 16:15:56.343 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:15:56.585 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:15:56.704 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=3
+2021-08-31 16:15:56.946 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=5
+2021-08-31 16:15:57.183 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=5
+2021-08-31 16:15:57.303 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=6
+2021-08-31 16:15:57.546 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=6
+2021-08-31 16:15:57.784 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=6
+2021-08-31 16:15:57.906 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=7
+2021-08-31 16:15:58.145 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=7
+2021-08-31 16:15:58.385 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=8
+2021-08-31 16:15:58.386 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=9
+2021-08-31 16:15:58.386 11684-16719/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---结束播放，s=0
+
+//调用开始合成，播放到一半，调用pause
+2021-08-31 16:16:37.013 2262-16924/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始合成，s=0
+2021-08-31 16:16:37.018 2262-16925/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始播放，s=0
+2021-08-31 16:16:37.496 2262-16924/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:16:37.500 2262-16924/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:16:37.606 2262-16925/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=0
+2021-08-31 16:16:37.627 2262-16924/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:16:37.631 2262-16924/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:16:37.631 2262-16924/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---合成结束，s=0
+2021-08-31 16:16:37.727 2262-16925/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=1
+2021-08-31 16:16:37.966 2262-16925/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:16:38.206 2262-16925/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:16:38.326 2262-16925/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=3
+
+//调用开始合成，播放到一半，调用resume
+2021-08-31 16:17:11.135 2264-17100/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始合成，s=0
+2021-08-31 16:17:11.136 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始播放，s=0
+2021-08-31 16:17:11.883 2264-17100/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:11.887 2264-17100/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:11.972 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=0
+2021-08-31 16:17:12.021 2264-17100/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:12.029 2264-17100/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:12.029 2264-17100/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---合成结束，s=0
+2021-08-31 16:17:12.091 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=1
+2021-08-31 16:17:12.335 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:17:12.574 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:17:12.692 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=3
+2021-08-31 16:17:12.935 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=5
+2021-08-31 16:17:13.174 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=5
+2021-08-31 16:17:13.291 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=6
+2021-08-31 16:17:13.772 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=6
+2021-08-31 16:17:13.895 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=7
+2021-08-31 16:17:14.135 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=7
+2021-08-31 16:17:14.374 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=8
+2021-08-31 16:17:14.375 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=9
+2021-08-31 16:17:14.375 2264-17101/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---结束播放，s=0
+
+//调用开始合成，播放到一半，调用stop
+2021-08-31 16:17:41.633 2265-17256/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始合成，s=0
+2021-08-31 16:17:41.634 2265-17257/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---开始播放，s=0
+2021-08-31 16:17:42.292 2265-17256/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:42.296 2265-17256/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:42.387 2265-17257/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=0
+2021-08-31 16:17:42.429 2265-17256/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:42.437 2265-17256/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---音频写入，s=0
+2021-08-31 16:17:42.437 2265-17256/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---合成结束，s=0
+2021-08-31 16:17:42.507 2265-17257/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=1
+2021-08-31 16:17:42.748 2265-17257/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:17:42.987 2265-17257/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=2
+2021-08-31 16:17:43.108 2265-17257/com.zyd.baiduvoicetestapplication E/VoiceManager: Speaker---播放进度，s=0，i=3
+
+
+//不调用开始合成，直接调用暂停合成
+mSpeaker.pause()会返回0
+
+//不调用开始合成，直接调用恢复合成
+mSpeaker.resume()会返回0
+
+//不调用开始合成，直接调用停止合成
+mSpeaker.stop()会返回0

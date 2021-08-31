@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp">
+
+        <TextView
+            android:id="@+id/tv_start_recog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="开始识别"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_cancel_recog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="取消识别"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_stop_recog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="结束识别"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_start_wakeup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="开始唤醒"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_stop_wakeup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="结束唤醒"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_start_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="开始合成（播放）"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_pause_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="暂停合成"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_resume_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="恢复合成"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_stop_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="停止合成"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_wakeup_when_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="边合成边唤醒"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_wakeup_when_recognize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#DEDEDE"
+            android:paddingLeft="30dp"
+            android:paddingTop="8dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="边识别边唤醒（不建议使用，会有问题）"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

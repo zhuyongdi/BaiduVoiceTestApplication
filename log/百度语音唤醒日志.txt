@@ -1,0 +1,26 @@
+//开启唤醒，不说话，直接调用stop
+2021-08-31 15:49:42.425 32486-32486/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.enter
+2021-08-31 15:49:42.525 32486-32486/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.ready
+2021-08-31 15:50:00.523 32486-32486/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--唤醒关闭
+
+//开启唤醒，说出唤醒词
+2021-08-31 15:50:43.878 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.enter
+2021-08-31 15:50:43.963 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.ready
+2021-08-31 15:50:46.596 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--唤醒成功（无异常），com.zyd.baiduvoicetestapplication.voice.wakeup.WakeUpResult@39f5d0
+
+//开启唤醒，说出唤醒词，过几秒再次说出唤醒词
+2021-08-31 15:50:43.878 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.enter
+2021-08-31 15:50:43.963 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.ready
+2021-08-31 15:50:46.596 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--唤醒成功（无异常），com.zyd.baiduvoicetestapplication.voice.wakeup.WakeUpResult@39f5d0
+2021-08-31 15:51:53.475 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--唤醒成功（无异常），com.zyd.baiduvoicetestapplication.voice.wakeup.WakeUpResult@7339c9
+
+//开启唤醒，说出唤醒词，过几秒调用stop
+2021-08-31 15:50:43.878 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.enter
+2021-08-31 15:50:43.963 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--其他，type=wp.ready
+2021-08-31 15:50:46.596 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--唤醒成功（无异常），com.zyd.baiduvoicetestapplication.voice.wakeup.WakeUpResult@39f5d0
+2021-08-31 15:52:26.232 32487-32487/com.zyd.baiduvoicetestapplication E/VoiceManager: wakeuper--唤醒关闭
+
+//不开启唤醒，直接调用关闭
+什么都不调用
+
+
